@@ -1,0 +1,58 @@
+html {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+#headerDocument {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#headerDocument p {
+  font-weight: bold;
+  padding: 4px;
+}
+
+#headerDocument #status {
+  background-color: #00BB00;
+  color: white;
+  font-weight: bold;
+  padding: 4px;
+}
+
+#header table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  margin-bottom: 20px;
+}
+
+#header table th, #header table td {
+  padding: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  text-align: start;
+}
+
+#header table th {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+
+#header table p {
+  margin: 0;
+}
+
+#header table #logo {
+  height: 40px;
+  padding: 10px;
+}
+
+#header table #title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 13px;
+}
+/*# sourceMappingURL=pdf.css.map */
